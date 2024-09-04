@@ -1,9 +1,5 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
+
+@import url('./container.css');
 @import url('./reset.css');
 @import url('./about-us.css');
 @import url('./advertisement.css');
