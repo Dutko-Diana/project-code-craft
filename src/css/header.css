@@ -36,7 +36,7 @@
 }
 @media screen and (min-width: 768px) {
   .header {
-    padding: 26px 0;
+    padding: 26px 32px;
   }
   .logo-header {
     font-size: 20px;
@@ -55,10 +55,12 @@
   .header {
     padding: 26px 0;
   }
-  /* .header-container {
+  .header-container {
+    padding: 0;
     display: flex;
     align-items: center;
-  } */
+    justify-content: space-around;
+  }
   .logo-header {
     margin-right: 203px;
   }
@@ -98,7 +100,6 @@
   .social-link-header {
     border: 1px solid rgba(12, 12, 12, 0.1);
     border-radius: 10px;
-    padding: 8px;
     width: 36px;
     height: 36px;
     display: flex;
