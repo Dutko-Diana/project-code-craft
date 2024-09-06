@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+      url('../fonts/Gilroy-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+      url('../fonts/Gilroy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Semibold.woff2') format('woff2'),
+      url('../fonts/Gilroy-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+      url('../fonts/Gilroy-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Gilroy', sans-serif;
+    color: #0c0c0c;
+    background-color: #fbfbfb;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    margin: 0 auto;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  button {
+    cursor: pointer;
+    font-family: inherit;
+    color: currentColor;
+  }
+  h1 {
+    font-family: 'Gilroy';
+    font-weight: 600;
+  }
+  
+  p {
+    font-family: 'Gilroy';
+    font-weight: 500;
+  }
+  h1,
+  h2,
+  h3,
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  ul,
+  ol {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  picture {
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  input {
+    font-family: inherit;
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+  .reviews-section {
+padding-top: 60px;
+background-color: #fff;
+  }
+
+  .reviews-container {
+    max-width: 320px;
+padding: 0 20px;
+  }
+
+  .reviews-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    position: relative;
+   
+  }
+
+  .reviews-list {
+
+  }
+
+  .reviews-item {
+
+  }
+
+  .reviews-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #0c0c0c;
+  }
+
+  .reviews-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(12, 12, 12, 0.4);
+  }
