@@ -36,10 +36,14 @@
 }
 @media screen and (min-width: 768px) {
   .header {
-    padding: 26px 32px;
+    padding: 26px 0px;
   }
   .logo-header {
     font-size: 20px;
+  }
+  .menu-icon {
+    width: 34px;
+    height: 16px;
   }
   .menu-button {
     width: 40px;
@@ -55,10 +59,9 @@
     padding: 26px 0;
   }
   .header-container {
-    padding: 0;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .logo-header {
     margin-right: 203px;
@@ -70,7 +73,6 @@
     display: flex;
     gap: 40px;
     align-items: baseline;
-    flex-direction: row;
   }
   .social-media-list {
     display: flex;
@@ -107,10 +109,11 @@
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .social-link-header:hover,
-  .social-link-herder:focus {
+  .social-link-header:focus {
     border-color: rgba(51, 80, 233, 0.1);
   }
   .social-link-icon {
+    opacity: 0.8;
     fill: #0c0c0c;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
