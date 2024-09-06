@@ -1,8 +1,8 @@
 
 .section {
+    padding-top: 60px;
 }
-.container {
-}
+
 .sale-title {
     font-family: "Gilroy", sans-serif;
     font-weight: 600;
@@ -10,13 +10,15 @@
     line-height: 1;
     letter-spacing: -0.02em;
     color: #0c0c0c;
+    padding-bottom: 24px;
 }
-.sale-watch-appearance {
+.sale-watch-appearance:not(:last-child) {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
     gap: 20px;
+    margin-bottom: 20px;
 }
 .sale-watch-list {
     display: flex;
@@ -28,8 +30,8 @@
 .sale-watch-item {
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 16px;
-    width: 80px;
-    height: 80px;
+    width: 78px;
+    height: 78px;
     background-color: #f3f3f3;
 }
 .sale-img {
@@ -37,21 +39,201 @@
     height: 54px;
     padding: 13px 14px;
 }
+.sale-big-watch-box {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    background-color: #f3f3f3;;
+    border-radius: 30px;
+    width: 335px;
+    height: 385px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
 .sale-big-watch {
+    width: 235px;
+    height: 285px;
+    
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
+.sale-big-watch:hover,
+.sale-big-watch:focus {
+    transform: rotate(-180deg);
+}
+
+
 .sale-watch-describe {
+    border-radius: 30px;
+    max-width: 279px;
+    background-color: #3350e9;
+    padding: 48px 28px;
 }
+
 .sale-describe-title {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 10px;
 }
+
 .sale-prod-tag {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+    margin-bottom: 20px;
 }
+
+.sale-prices {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 28px;
+}
+
+.sale-price-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    width: 68px;
+    height: 32px;
+    background-color: rgba(251, 251, 251, 0.1);;
+}
+
 .sale-price {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
 }
+
 .sale-preprice {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    text-decoration: line-through;
+    color: rgba(251, 251, 251, 0.5);
 }
+
 .sale-text {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.7);
+    margin-bottom: 26px;
 }
+
 .sale-watch-advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 8px;
 }
+
 .sale-watch-advantages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 4px;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    padding: 8px 12px;
+    
 }
+
+.sale-watch-advantages-text {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.3;
+    color: #fbfbfb; 
+}
+
+@media screen and (min-width: 768px) {
+    .sale-title {
+        font-size: 48px;
+        line-height: 0.92;
+        padding-bottom: 40px;
+    }
+    .sale-watch-appearance:not(:last-child) {
+        flex-direction: row;
+        margin-bottom: 40px;
+    }
+    .sale-watch-list {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .sale-watch-item {
+        border-radius: 20px;
+        width: 130px;
+        height: 130px;
+    }
+    .sale-img {
+        width: 96px;
+        height: 100px;
+        padding: 16px 18px;
+    }
+    .sale-big-watch-box {
+        border-radius: 50px;
+        width: 552px;
+        height: 558px;
+    }
+    .sale-big-watch {
+        width: 328px;
+        height: 398px;
+    }
+    .sale-watch-describe {
+        border-radius: 50px;
+        max-width: 584px;
+        padding: 60px;
+    }
+    .sale-describe-title {
+        font-size: 32px;
+        line-height: 1.13;
+        width: 436px;
+    }
+    .sale-prices {
+        margin-bottom: 30px;
+    }
+    .sale-price-wrap {
+        width: 78px;
+    }
+    .sale-price {
+        font-size: 20px;
+        line-height: 1;
+    }
+    .sale-text {
+        font-size: 16px;
+        line-height: 1.25;
+        margin-bottom: 40px;
+    }
+    .sale-watch-advantages-list {
+        max-width: 398px;
+    }
+    .sale-watch-advantages-text {
+        font-size: 14px;
+
+    }
+
+  }
+
+@media screen and (min-width: 1280px) {
+    
+  }
