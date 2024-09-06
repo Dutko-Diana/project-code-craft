@@ -29,6 +29,11 @@
   font-weight: bold;
   font-style: normal;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body {
   font-family: 'Gilroy', sans-serif;
   color: #0c0c0c;
