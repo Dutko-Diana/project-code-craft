@@ -83,6 +83,8 @@
   height: 366px;
   width: 335px;
   border-radius: 30px;
+  margin: 0 auto;
+  padding: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -134,6 +136,11 @@
     font-size: 20px;
     line-height: 1;
   }
+  .hero-image-container {
+    border-radius: 50px;
+    width: 704px;
+    height: 520px;
+  }
 }
 @media screen and (min-width: 1280px) {
   .hero {
@@ -160,5 +167,9 @@
     max-width: 597px;
     font-size: 72px;
     line-height: 87%;
+  }
+  .hero-image-container {
+    width: 1150px;
+    height: 500px;
   }
 }
