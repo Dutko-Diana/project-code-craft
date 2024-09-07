@@ -235,5 +235,8 @@
         width: 428px;
         height: 558px;
      }
+     .sale-describe-title {
+        max-width: 389px;
+     }
 
   }
