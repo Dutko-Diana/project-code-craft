@@ -221,5 +221,22 @@
   }
 
 @media screen and (min-width: 1280px) {
-    
+    .section {
+        padding-top: 100px;
+     }
+     .sale-container {
+        display: flex;
+        gap: 40px;
+     }
+     .sale-watch-appearance {
+         margin-bottom: 0;
+     }
+     .sale-big-watch-box {
+        width: 428px;
+        height: 558px;
+     }
+     .sale-describe-title {
+        max-width: 389px;
+     }
+
   }
