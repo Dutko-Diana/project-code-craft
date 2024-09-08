@@ -1,66 +1,15 @@
 
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-ul,
-ol {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-    list-style-type: none;
-}
-
-
-button {
-    cursor: pointer;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-picture {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-.container {
-    max-width: 375px;
-    height: Hug (1, 660px)px;
-    padding: 0px 20px 0px 20px;
-    gap: 24px;
-
-}
-/*--------------------------------------*/
+/*     375     */
 
 .catalog {
     padding-top: 60px;
 }
 
-.catalog-title {
-    width: 118px;
-    height: 32px;  
+.catalog-title { 
     font-size: 32px;
     font-weight: 600;
     line-height: 100%;
     letter-spacing: -0.02em;
-    text-align: left;
-    color: #0C0C0C;
     margin-bottom: 24px;
 }
 
@@ -81,7 +30,6 @@ picture {
 .catalog-menu-list {
     
     width: 100%;
-    gap: 10px;
     padding: 24px 28px;
 
     background-color: #F3F3F3;
@@ -94,30 +42,20 @@ picture {
     display: none;
 }
 
-.menu-list-picture {
-    
-    top: 18px;
-    left: 35px;
+.picture-thumb {
+    width: 279px;
+    height: 262px;
+    padding: 18px 36px 18px 35px;
+    margin-bottom: 10px;
 }
 
-.menu-list-opys {
-    gap: 8px;
-    
-}
 
 .list-opys-name {
     font-size: 16px;
     font-weight: 500;
     line-height: 125%;
     letter-spacing: -0.02em;
-    text-align: left;
-    color: #0C0C0C;
-   
-    
-    white-space: nowrap;
-    overflow: hidden;
-    width: 200px;
-    text-overflow: ellipsis;
+    margin-bottom: 8px;
 
 }
 
@@ -126,23 +64,22 @@ picture {
     font-size: 14px;
     line-height: 129%;
     letter-spacing: -0.02em;
-    text-align: left;
     color: rgba(12, 12, 12, 0.5);
     
 }
 
 .catalog-button {
     width: 160px;
-    height: 48px;
+    padding: 15px 44px;
 
     border-radius: 16px;
     border: none;
-    outline: none;
+    
     background-color: #3350E9;
 
     font-size: 14px;
     font-weight: 500;
-    line-height: 18px;
+    line-height: 1.29;
     text-align: center;
     color: #fbfbfb;
 
@@ -150,8 +87,9 @@ picture {
     margin: 0 auto;
     transition-property: background-color;
     transition-duration: 250ms;
-    transition-timing-function: linear;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 .catalog-button:hover,
 .catalog-button:focus {
@@ -162,27 +100,15 @@ picture {
 
 @media screen and (min-width: 768px) {
     
-    .container {
-        max-width: 768px;
-        padding: 0px 65px 0px 65px;
-    }
-
-    .catalog {
+       .catalog {
         padding-top: 80px;
     }
 
     .catalog-title {
-        width: 177px;
-        height: 44px;
-
         font-size: 48px;
         line-height: 92%;
         margin-bottom: 40px;
      }
-
-    .catalog-container {
-        gap: 0;
-    }
 
     .catalog-menu {
         gap: 32px 16px;
@@ -190,23 +116,28 @@ picture {
     }
 
     .catalog-menu-list {
-        flex-basis: calc((100% - 16px)/2);
+        width: calc((100% - 16px)/2);
         padding: 24px 32px;
     }
+
+        .picture-thumb {
+            width: 280px;
+            height: 312px;
+            padding: 10px 6px;
+            margin-bottom: 10px;
+        }
 
     .catalog-menu-list-none {
         display: block;
     }
 
-    .menu-list-picture {
-        top: 10px;
-        left: 6px;
-    }
-
     .list-opys-name {
         font-size: 20px;
         line-height: 100%;
-        
+        white-space: nowrap;
+        overflow: hidden;
+        width: 280px;
+        text-overflow: ellipsis;
     }
 
     .catalog-button {
@@ -219,11 +150,6 @@ picture {
 
 @media screen and (min-width: 1280px) {
 
-.container {
-    max-width: 1280px;
-    padding: 0px 65px 0px 65px;
-}
-
 .catalog {
     padding-top: 100px;
 }
@@ -232,19 +158,20 @@ picture {
     gap: 32px 23px;
 }
 
-.catalog-menu-list {
-    flex-basis: calc((100% - 46px)/3);
-    padding: 24px 32px;
+.picture-thumb {
+    width: 304px;
+    height: 312px;
 }
 
-.menu-list-picture {
-    top: 6px;
-    left: 6px;
+.catalog-menu-list {
+    width: calc((100% - 46px)/3);
+    
 }
 
 .list-opys-name {
     font-size: 20px;
     line-height: 100%;
+    width: 304px;
 }
 
 
