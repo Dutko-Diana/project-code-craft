@@ -194,11 +194,9 @@ picture {
         padding: 24px 32px;
     }
 
-.catalog-menu-list-none {
-    display: none;
-}
-
-
+    .catalog-menu-list-none {
+        display: block;
+    }
 
     .menu-list-picture {
         top: 10px;
