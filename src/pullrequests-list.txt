@@ -1,4 +1,13 @@
+/------------/Anastasia 
 https://github.com/Dutko-Diana/project-code-craft/pull/1
 https://github.com/Dutko-Diana/project-code-craft/pull/2
 https://github.com/Dutko-Diana/project-code-craft/pull/3
+<<<<<<< HEAD
 https://github.com/Dutko-Diana/project-code-craft/pull/8
+=======
+
+/------------/Tetiana Haievska
+https://github.com/Dutko-Diana/project-code-craft/pull/5
+
+/------------/
+>>>>>>> 897116cc5f1fca3853b84df1aa586e51d8ce3c30
