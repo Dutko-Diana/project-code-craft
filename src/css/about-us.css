@@ -62,6 +62,7 @@
 
   .about-us-wrapper-one {
     padding: 80px 60px;
+    border-radius: 50px;
   }
 
   .about-us-title {
@@ -104,5 +105,9 @@
 
   .par {
     margin-bottom: 40px;
+  }
+
+  .about-us-wrapper-two {
+    width: 530px;
   }
 }
