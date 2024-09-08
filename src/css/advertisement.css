@@ -23,11 +23,10 @@
 
 .container-advertisement {
   display: flex;
-  align-items: flex-start;
   flex-direction: column;
   padding: 60px 28px;
   border-radius: 30px;
-  background-image: url(./img/advertisement-images/bg-mob.png);
+  background-image: url(../img/advertisement-images/bg-mob.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -38,7 +37,7 @@
   screen and (min-resolution: 192dpi) and (max-width: 767px),
   screen and (min-resolution: 2dppx) and (max-width: 767px) {
   .container-advertisement {
-    background-image: url(./img/advertisement-images/bg-mob@2x.png);
+    background-image: url(../img/advertisement-images/bg-mob@2x.png);
   }
 }
 
@@ -57,12 +56,7 @@
 }
 
 .contact-button-adv {
-  min-width: 160px;
-  text-decoration: none;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  max-width: 160px;
   padding: 15px 43px 15px 44px;
   border: 1px solid rgba(251, 251, 251, 0.15);
   border-radius: 16px;
@@ -89,13 +83,13 @@
 
   .container-advertisement {
     padding: 80px 64px;
-    background-image: url(./img/advertisement-images/bg-tab.png);
+    background-image: url(../img/advertisement-images/bg-tab.png);
   }
   @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
     screen and (min-resolution: 192dpi) and (min-width: 768px),
     screen and (min-resolution: 2dppx) and (min-width: 768px) {
     .container-advertisement {
-      background-image: url(./img/advertisement-images/bg-tab@2x.png);
+      background-image: url(../img/advertisement-images/bg-tab@2x.png);
     }
   }
 
@@ -117,13 +111,13 @@
     align-items: flex-start;
     padding: 83px 80px;
     justify-content: space-between;
-    background-image: url(./img/advertisement-images/background.png);
+    background-image: url(../img/advertisement-images/background.png);
   }
   @media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
     screen and (min-resolution: 192dpi) and (min-width: 1280px),
     screen and (min-resolution: 2dppx) and (min-width: 1280px) {
     .container-advertisement {
-      background-image: url(./img/advertisement-images/background@2x.png);
+      background-image: url(../img/advertisement-images/background@2x.png);
     }
   }
   .advertisement-text {
