@@ -3,10 +3,6 @@
  
 }
 
-.reviews-container {
-  display: flex;
-  flex-direction: column;
-}
 
 .reviews-title {
   font-weight: 600;
@@ -18,7 +14,6 @@ margin-bottom: 24px;
 
 .reviews-list {
   display: flex;
-  justify-content: space-between
 }
 
  .reviews-item {
@@ -27,10 +22,8 @@ margin-bottom: 24px;
   align-items: center;
   justify-content: center;
   text-align: center;
-  max-width: 263px;
   border-radius: 30px;
 padding: 32px 36px;
-max-width: 335px;
 background-color: #f3f3f3;
 }  
 
@@ -69,9 +62,8 @@ color: rgba(12, 12, 12, 0.4);
   }
 
 .reviews-title {
-  font-weight: 600;
 font-size: 48px;
-line-height: 0.9;
+line-height: 0.92;
 margin-bottom: 40px;
 }
 
@@ -93,7 +85,6 @@ gap: 16px;
 }
 
 .reviews-text {
-  font-weight: 500;
 font-size: 16px;
 line-height: 1.25;
 }
