@@ -1,9 +1,7 @@
-*/ .footer {
-  padding-top: 40px;
-  padding-bottom: 28px;
+.footer {
+  padding-top: 60px;
 }
-.container {
-}
+
 .footer-container {
   border-radius: 30px;
   padding: 40px 28px 28px 28px;
@@ -31,10 +29,10 @@
   gap: 10px;
   margin-top: 20px;
 }
-.social-links-footer:hover .icons-social-footer {
+.social-links-links-footer:hover .icons-social-footer {
   opacity: 1;
 }
-.social-links-footer:focus .icons-social-footer {
+.social-links-links-footer:focus .icons-social-footer {
   opacity: 1;
 }
 .social-links-footer {
