@@ -84,7 +84,7 @@
 }
 .hero-image-container {
   height: 366px;
-  max-width: 335px;
+  width: 335px;
   border-radius: 30px;
 }
 
