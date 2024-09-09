@@ -90,7 +90,6 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .catalog-button:hover,
 .catalog-button:focus {
     background-color: #1F3CD4;
@@ -173,8 +172,6 @@
     line-height: 100%;
     width: 304px;
 }
-
-
 
 
 }
