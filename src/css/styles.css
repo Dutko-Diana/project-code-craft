@@ -1,4 +1,4 @@
-
+@import url('../fonts/fonts.css');
 @import url('./reset.css');
 @import url('./container.css');
 @import url('./header.css');
@@ -11,3 +11,4 @@
 @import url('./contact-us.css');
 @import url('./footer.css');
 @import url('./menu.css');
+
