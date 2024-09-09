@@ -10,6 +10,7 @@
     letter-spacing: -0.02em;
     margin-bottom: 24px;
 }
+
 .sale-watch-appearance {
     display: flex;
     align-items: flex-start;
@@ -24,6 +25,7 @@
     align-items: center;
     justify-content: center;
     gap: 5px;
+    max-width: 100%;
 }
 .sale-watch-item {
     display: flex;
@@ -49,6 +51,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 100%;
 }
 
 .sale-big-watch {
@@ -94,6 +97,7 @@
     justify-content: center;
     border-radius: 8px;
     width: 68px;
+    height: 32px;
     padding: 8px 12px;
     background-color: rgba(251, 251, 251, 0.1);;
 }
@@ -138,7 +142,8 @@
     justify-content: center;
     border: 1px solid rgba(251, 251, 251, 0.2);
     border-radius: 8px;
-    padding: 8px 12px;    
+    padding: 8px 12px;
+    height: 32px;    
 }
 
 .sale-watch-advantages-text {
@@ -209,6 +214,9 @@
         font-size: 16px;
         line-height: 1.25;
         margin-bottom: 40px;
+    }
+    .sale-watch-advantages {
+        height: 34px;
     }
     .sale-watch-advantages-list {
         max-width: 398px;
