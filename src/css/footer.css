@@ -223,6 +223,11 @@
   .footer {
     padding-top: 100px;
   }
+  .footer .container {
+    width: 1216px;
+    padding: 0;
+    margin: 0 auto;
+  }
   .footer-container {
     width: 1216px;
 
@@ -236,7 +241,6 @@
     min-width: 505px;
     height: 18px;
     gap: 40px;
-    margin-left: 40px;
   }
   .menu-footer {
     font-size: 14px;
@@ -253,7 +257,7 @@
   .cont-menu-terms-privacy-footer {
     margin-top: 142px;
     width: 1136px;
-    margin-top: 126px;
+
     /* margin-left: 178px; */
   }
 
