@@ -14,7 +14,7 @@
 .modal {
     border-radius: 30px;
         padding: 48px 28px;
-        width: 335px;
+        width: 100%;
         background: #f3f3f3;
         margin-bottom: 20px;
 }
@@ -46,7 +46,7 @@
         border-radius: 12px;
         padding: 12px 14px;
         font-size: 14px;
-        width: 279px;
+        width: 100%;
         height: 42px;
         background-color: transparent;
         outline: none;
@@ -56,7 +56,7 @@
 .modal-textarea {
     border: 1px solid rgba(12, 12, 12, 0.15);
         border-radius: 12px;
-        width: 279px;
+        width: 100%;
         height: 84px;
         font-size: 14px;
         display: block;
@@ -141,13 +141,13 @@
 .modal-input {
     font-size: 16px;
     padding: 16px;
-    width: 460px;
+    width: 100%;
     height: 52px;
 }
 
 .modal-textarea {
     font-size: 16px;
-    width: 460px;
+    width: 100%;
     height: 90px;
     padding: 16px 16px;
     margin-bottom: 32px;
