@@ -10,22 +10,24 @@
   background: #0c0c0c;
 }
 .logo-footer {
-  font-family: 'Gilroy', sans-serif;
-  font-size: 16px;
   font-weight: 500;
-  line-height: 19.41px;
-  letter-spacing: -0.02em;
+
   text-align: left;
   color: #fbfbfb;
 }
 .social-links-links-footer {
   display: flex;
+  width: 34px;
+  height: 34px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(251, 251, 251, 0.1);
+  border-radius: 10px;
 }
 .social-links-list-footer {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  flex-direction: row;
   gap: 10px;
   margin-top: 20px;
 }
@@ -36,14 +38,8 @@
   opacity: 1;
 }
 .social-links-footer {
-  border: 1px solid rgba(251, 251, 251, 0.1);
-  border-radius: 10px;
-  padding: 8px;
   width: 34px;
   height: 34px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .icons-social-footer {
   fill: #fbfbfb;
@@ -53,20 +49,17 @@
 .address-tel-footer {
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 16px;
-  width: 152px;
-  height: 44px;
+  max-width: 152px;
+  padding: 14px 20px;
   font-weight: 500;
   font-size: 12px;
-  line-height: 1.33333;
-  text-transform: uppercase;
+  line-height: 1.33;
   color: #fbfbfb;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
   margin-top: 20px;
+  font-style: normal;
 }
 .text-footer {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
@@ -76,14 +69,10 @@
   margin-top: 40px;
 }
 .menu-list-footer {
-  width: 147px;
-  height: 64px;
+  max-width: 147px;
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 16px;
+  gap: 8px 16px;
 }
 .menu-footer {
   font-weight: 500;
@@ -96,37 +85,30 @@
 .cont-menu-terms-privacy-footer {
   display: flex;
   justify-content: space-between;
-  gap: 49px;
+
   margin-top: 92px;
   position: relative;
-  width: 279px;
 }
 
 .address-footer {
-  /* display: flex;
-  align-items: flex-end; */
   font-weight: 500;
   font-size: 12px;
   line-height: 1.33333;
   color: #fbfbfb;
-  width: 88px;
-  height: 48px;
+  max-width: 83px;
+  font-style: normal;
 }
 .cont-menu-terms-privacy-footer.footer-pseudo {
   position: relative;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
 }
 .cont-menu-terms-privacy-footer.footer-pseudo::after {
+  position: absolute;
   content: '';
   width: 100%;
-  height: 2px;
-  fill: none;
-  opacity: 0.1;
-  background-color: #fbfbfb;
-  position: absolute;
   left: 0;
   bottom: -24px;
-  margin-bottom: 24px;
+  border: 1px solid rgba(251, 251, 251, 0.1);
 }
 .terms-privacy-footer-con {
   display: flex;
@@ -155,19 +137,29 @@
 }
 @media only screen and (min-width: 768px) {
   .footer-container {
-    padding: 40px;
-    width: 700px;
+    padding: 40px 40px 28px;
+    width: 704px;
     height: 540px;
   }
   .tablet-footer-con-one {
     display: flex;
     justify-content: space-between;
   }
-
+  .logo-footer {
+    font-size: 20px;
+  }
+  .social-links-links-footer {
+    width: 36px;
+    height: 36px;
+  }
+  .icons-social-footer {
+    width: 20px;
+    height: 20px;
+  }
   .text-footer {
     font-size: 28px;
-    line-height: 1.14286;
-    margin-top: 86px;
+    line-height: 1.14;
+    margin: 86px auto 0px;
   }
   .menu-list-footer {
     width: 400px;
@@ -176,7 +168,7 @@
   }
   .menu-footer {
     font-size: 14px;
-    line-height: 1.28571;
+    line-height: 1.29;
   }
 
   .cont-menu-terms-privacy-footer {
@@ -186,8 +178,13 @@
     margin-top: 92px;
     width: 624px;
     margin-top: 100px;
+    padding-bottom: 28px;
+    margin-bottom: 56px;
   }
-
+  .address-tel-footer {
+    padding: 15px;
+    min-width: 160px;g
+  }
   .address-footer {
     width: 162px;
     font-size: 14px;
@@ -199,13 +196,13 @@
     width: 624px;
     height: 18px;
     margin-top: 28px;
+    flex-direction: row;
   }
   .cont-menu-terms-privacy-footer.footer-pseudo {
     padding-bottom: 28px;
   }
   .cont-menu-terms-privacy-footer.footer-pseudo::after {
     bottom: -28px;
-    margin-bottom: 28px;
   }
   .cont-two {
     display: flex;
