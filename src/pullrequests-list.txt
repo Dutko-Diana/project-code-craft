@@ -21,5 +21,8 @@ https://github.com/Dutko-Diana/project-code-craft/pull/15
 
 
 
+MENU_HTML
+
+MAIN
 897116cc5f1fca3853b84df1aa586e51d8ce3c30
 main
