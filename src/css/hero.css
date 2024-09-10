@@ -83,8 +83,7 @@
   color: #3350e9;
 }
 .hero-image-container {
-  height: 366px;
-  width: 335px;
+  max-width: 100%;
   border-radius: 30px;
 }
 

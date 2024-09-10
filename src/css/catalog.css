@@ -28,6 +28,9 @@
 }
 
 .catalog-menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
     width: 100%;
     padding: 24px 28px;
@@ -48,7 +51,9 @@
     padding: 18px 36px 18px 35px;
     margin-bottom: 10px;
 }
-
+.menu-list-opys {
+    align-self: flex-start;
+}
 
 .list-opys-name {
     font-size: 16px;
